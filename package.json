@@ -1,0 +1,20 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "scaffold": "index.js"
+  },
+  "author": "Felipe Nobre <nobrefelipe1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.3.0",
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.7.7"
+  },
+  "devDependencies": {
+    "renamer": "^4.0.0",
+    "shelljs-nodecli": "^0.1.1"
+  }
+}
