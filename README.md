@@ -18,7 +18,7 @@ scaffold mf user_profile
 ```
 
 ### Output
-Running the commande above will generate a folder called `user_profile` with the following contents:
+Running the command above will generate a folder called `user_profile` with the following contents:
 
 ```
 user_profile
@@ -30,12 +30,12 @@ user_profile
 │   │   user_profile.dart
 │   │
 │   └───app
-│       │   user_profile_events.dart
-│       │   user_profile_resolver.dart
-│       │   
-│       └───presenter
-│           │   user_profile_view.dart
-│           │      
+│   │   │   user_profile_events.dart
+│   │   │   user_profile_resolver.dart
+│   │   │   
+│   │   └───presenter
+│   │   │   │   user_profile_view.dart
+│   │   │   │      
 
 ```
 
