@@ -15,7 +15,7 @@ class [NAME]DummyEvent extends RouteEvent {
 /// Exports the events in a class so we dont need to import
 /// them from other micro apps. LoginEvents will be used by [RouteEvents]
 ///
-class [NAME]Events {
+class [NAME]Events extends RouteEvent {
    RouteEvent dummyEvent(String user) => [NAME]DummyEvent(user);
   // [NAME] events here
 }

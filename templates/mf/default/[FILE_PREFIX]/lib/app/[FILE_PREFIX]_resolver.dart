@@ -1,3 +1,4 @@
+import 'package:flutter/widgets.dart';
 import 'package:micro_core/micro_core.dart';
 import 'presenter/[FILE_PREFIX]_view.dart';
 import '[FILE_PREFIX]_events.dart';
@@ -22,4 +23,7 @@ class [NAME]Resolver implements MicroApp {
   @override
   [NAME]Events microAppEvents() =>
    [NAME]Events();
+
+  @override
+  Widget? microAppWidget() => null;
 }
