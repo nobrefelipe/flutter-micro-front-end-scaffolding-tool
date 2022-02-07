@@ -10,7 +10,7 @@ class [NAME]Resolver implements MicroApp {
   @override
   Map<String, WidgetBuilderArgs> get routes => {
        microAppName: (context, args) => [NAME]View(args as 
-       [NAME]DummyEvent),
+       [NAME]DummyEvent?),
       };
 
   @override
