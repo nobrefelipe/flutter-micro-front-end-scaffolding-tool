@@ -14,7 +14,7 @@ class [NAME]Resolver implements MicroApp {
       };
 
   @override
-  void initRouteListeners() {
+  void initEventListeners() {
     CustomEventBus.on<[NAME]DummyEvent>((event) {
       print(event.user);
     });
