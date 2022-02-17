@@ -8,6 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  get_it: ^7.2.0
   micro_core:
     path: ../../micro_core
   dependencies:

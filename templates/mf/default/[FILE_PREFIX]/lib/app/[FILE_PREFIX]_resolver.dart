@@ -26,4 +26,7 @@ class [NAME]Resolver implements MicroApp {
 
   @override
   Widget? microAppWidget() => null;
+
+  @override
+  void injectionsRegister() => null;
 }
