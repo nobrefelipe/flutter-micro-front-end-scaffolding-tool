@@ -8,6 +8,9 @@ class [NAME]Resolver implements MicroApp {
   String get microAppName => "/[FILE_PREFIX]";
 
   @override
+  TransitionType get transitionType => TransitionType.defaultTransition;
+
+  @override
   Map<String, WidgetBuilderArgs> get routes => {
        microAppName: (context, args) => [NAME]View(args as 
        [NAME]DummyEvent?),
